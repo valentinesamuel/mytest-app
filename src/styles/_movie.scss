@@ -1,0 +1,30 @@
+.movie {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.movie-poster {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 12px;
+}
+
+.movie-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: $dm-sans;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: $min_mobile) and (max-width: $max_mobile) {
+  .movie-name {
+    font-size: 17px;
+  }
+  .movie-poster {
+    height: 200px;
+    width: 200px;
+  }
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+@import "./styles/utils.scss";
+@import "./styles/navbar";
+@import "./styles/category";
+@import "./styles/hero";
+@import "./styles/movie";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.bar-title {
+  font-size: $fs24px;
+  font-family: $dm-sans;
+}
+
+.search-bar {
+  width: 100%;
+  font-size: $fs24px;
+  padding: 63px 57px 48px 77px;
+  input {
+    height: 54px;
+    border: 1px solid $black;
+    margin: 4px 0px;
+  }
+}
+
+@media (min-width: $min_mobile) and (max-width: $max_mobile){
+  .search-bar {
+    padding: 56px 27px 33px 27px;
+    input {
+      height: 34px;
+      padding: 20px;
+      margin: 0;
+      font-size: 14px;
+    }
+  }
+}

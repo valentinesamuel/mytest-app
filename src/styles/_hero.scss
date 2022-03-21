@@ -1,0 +1,26 @@
+.header {
+  font-size: $header-font-size;
+  font-family: $dm-sans;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/hero-bg.svg");
+}
+.heading {
+  padding: 109px 0 159px 77px;
+  max-width: 480px;
+  color: $white;
+  letter-spacing: -0.05em;
+}
+
+@media (min-width: $min_mobile) and (max-width: $max_mobile) {
+  .header {
+    font-size: $header-font-size-mobile;
+    text-align: center;
+  }
+
+  .heading {
+    padding: 98px 24px 87px 23px;
+  }
+}
