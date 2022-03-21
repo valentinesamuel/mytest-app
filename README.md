@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Mini Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a project from the **SlickMediaGroup**. Feedback and questions are welcome!
+The project requirements are:
+- Making sure colours are accurate
+- Ensure paddings/margins are accurate for all different screen sizes
+- Ensure font-sizes/letter-spacings/line-heights are accurate for all different screen sizes.
+- Implement [this](https://www.figma.com/file/lAyarc95eEn9bkBagPiEgE/Untitled?node-id=0%3A1) design from Figma in React
 
-## Available Scripts
+**The live project can be found at [https://random-palette-maker.netlify.app/](https://random-palette-maker.netlify.app/)**
+## Tech/framework used
 
-In the project directory, you can run:
+Built with React.js using [TmDb APIT](http://colormind.io/api-access/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/67756784/155132592-0d17a238-3498-4a92-86e0-816774f6b1a5.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone project
+`git clone https://github.com/valentinesamuel/mytest-app.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install npm and yarn add-ons
+`npm install` and `yarn install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run project
+`yarn start`
 
-### `npm run eject`
+Open your browser and enter path
+`localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
+Most open source projects use the MIT license.
