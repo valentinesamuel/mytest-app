@@ -1,6 +1,6 @@
 .category {
   margin-top: 48px;
-  padding-left: 28px;
+  padding-left: 77px;
 }
 
 .category-name {
@@ -12,15 +12,21 @@
 .movie-category {
   display: flex;
   overflow-x: scroll;
- scrollbar-width: none;
+  scrollbar-width: none;
 }
 
 @media (min-width: $min_mobile) and (max-width: $max_mobile) {
-  .category-name, .movie-category  {
+  .category-name,
+  .movie-category {
     font-size: $fs18px;
   }
-.category {
-      margin-top: 33px;
+  .category {
+    margin-top: 33px;
+  }
 }
 
+@media (min-width: $min_tablet) and (max-width: $max_tablet) {
+  .category {
+    padding-left: 77px;
+  }
 }

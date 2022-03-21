@@ -5,13 +5,19 @@
 @import "./styles/category";
 @import "./styles/hero";
 @import "./styles/movie";
+@import "./styles/searchedMovie";
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
+
 
 .bar-title {
   font-size: $fs24px;
@@ -40,3 +46,4 @@
     }
   }
 }
+

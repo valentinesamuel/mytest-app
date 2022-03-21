@@ -24,3 +24,15 @@
     padding: 98px 24px 87px 23px;
   }
 }
+
+@media (min-width: $min_tablet) and (max-width: $max_tablet) {
+  .header {
+    font-size: $header-font-size;
+    text-align: center;
+  }
+  .heading {
+    text-align: center;
+    padding: 109px 0 159px 0;
+    max-width: 100%;
+  }
+}

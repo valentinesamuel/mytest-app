@@ -9,6 +9,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-     padding: 16px 0 16px 0px;
+    padding: 16px 0 16px 0px;
+  }
+}
+
+@media (min-width: $min_tablet) and (max-width: $max_tablet) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 40px 0px;
   }
 }
