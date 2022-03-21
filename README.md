@@ -21,7 +21,7 @@ In this project:
 
 
 ---
-**The live project can be found at https://mytest-app.vercel.app/](https://mytest-app.vercel.app/)**
+**The live project can be found at [https://mytest-app.vercel.app/](https://mytest-app.vercel.app/)**
 
 ---
 ## Tech/framework used
