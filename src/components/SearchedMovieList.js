@@ -6,7 +6,7 @@ const SearchedMovieList = ({ queriedMovies }) => {
       queriedMovies.map(qmovie => {
         const imgSrc = `https://image.tmdb.org/t/p/original//${qmovie.backdrop_path}`
         return <div className='list-item' key={qmovie.id}>
-          <img src={imgSrc} alt="movie-image" className='image' />
+          <img src={imgSrc} alt="movie-cover" className='image' />
           {qmovie.title}</div>
       })
 
