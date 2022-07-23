@@ -1,4 +1,4 @@
-# Mini Movie App
+# Movie App
 
 This is a project from the **SlickMediaGroup**. 
 
